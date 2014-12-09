@@ -13,6 +13,7 @@
 		0E4AD32C1A36A13800006AC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4AD32B1A36A13800006AC2 /* Images.xcassets */; };
 		0E4AD32F1A36A13800006AC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E4AD32D1A36A13800006AC2 /* LaunchScreen.xib */; };
 		0E4AD33B1A36A13800006AC2 /* GeneratorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AD33A1A36A13800006AC2 /* GeneratorDemoTests.swift */; };
+		0E4AD3451A36A4B600006AC2 /* ColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AD3441A36A4B600006AC2 /* ColorGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0E4AD3341A36A13800006AC2 /* GeneratorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneratorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4AD3391A36A13800006AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4AD33A1A36A13800006AC2 /* GeneratorDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorDemoTests.swift; sourceTree = "<group>"; };
+		0E4AD3441A36A4B600006AC2 /* ColorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0E4AD3241A36A13800006AC2 /* AppDelegate.swift */,
 				0E4AD3261A36A13800006AC2 /* ViewController.swift */,
 				0E4AD3281A36A13800006AC2 /* Main.storyboard */,
+				0E4AD3441A36A4B600006AC2 /* ColorGenerator.swift */,
 				0E4AD32B1A36A13800006AC2 /* Images.xcassets */,
 				0E4AD32D1A36A13800006AC2 /* LaunchScreen.xib */,
 				0E4AD3221A36A13800006AC2 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4AD3451A36A4B600006AC2 /* ColorGenerator.swift in Sources */,
 				0E4AD3271A36A13800006AC2 /* ViewController.swift in Sources */,
 				0E4AD3251A36A13800006AC2 /* AppDelegate.swift in Sources */,
 			);
